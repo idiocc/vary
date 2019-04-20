@@ -1,6 +1,6 @@
 {
   "name": "@goa/vary",
-  "version": "0.0.0-pre",
+  "version": "1.0.0",
   "description": "[fork] Manipulate the HTTP Vary header",
   "main": "build/index.js",
   "module": "src/index.js",
