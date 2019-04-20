@@ -24,7 +24,7 @@ This will append the header if not already listed, otherwise leaves it listed in
 
 %~%
 
-```## append
+```## append => string
 [
   ["header", "string"],
   ["field", "string|Array<string>"]

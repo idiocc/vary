@@ -15,7 +15,7 @@ The original module has been updated to be used in [`@goa/koa`](https://artdecoc
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
 - [`vary(res: http.ServerResponse, field: string|Array<string>)`](#varyres-httpserverresponsefield-stringarraystring-void)
-- [`append(header: string, field: string|Array<string>)`](#appendheader-stringfield-stringarraystring-void)
+- [`append(header: string, field: string|Array<string>): string`](#appendheader-stringfield-stringarraystring-string)
 - [Copyright](#copyright)
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/0.svg?sanitize=true"></a></p>
@@ -78,7 +78,7 @@ server.listen(async () => {
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/2.svg?sanitize=true"></a></p>
 
-## `append(`<br/>&nbsp;&nbsp;`header: string,`<br/>&nbsp;&nbsp;`field: string|Array<string>,`<br/>`): void`
+## `append(`<br/>&nbsp;&nbsp;`header: string,`<br/>&nbsp;&nbsp;`field: string|Array<string>,`<br/>`): string`
 
 Adds the given header `field` to the _Vary_ response header string `header`. This can be a string of a single field, a string of a valid _Vary_ header, or an array of multiple fields.
 
@@ -106,6 +106,10 @@ Accept, User-Agent, Origin
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/3.svg?sanitize=true"></a></p>
 
 ## Copyright
+
+Original Author: [Douglas Wilson](https://github.com/dougwilson)
+
+---
 
 <table>
   <tr>
