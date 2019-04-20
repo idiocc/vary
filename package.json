@@ -31,7 +31,11 @@
   },
   "keywords": [
     "vary",
-    "goa"
+    "goa",
+    "koa",
+    "http",
+    "es6",
+    "module"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
@@ -40,6 +44,7 @@
   },
   "homepage": "https://github.com/idiocc/vary#readme",
   "devDependencies": {
+    "@rqt/aqt": "^1.2.5",
     "alamode": "^1.9.3",
     "documentary": "^1.24.1",
     "eslint-config-artdeco": "1.0.1",
