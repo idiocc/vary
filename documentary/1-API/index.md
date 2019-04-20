@@ -20,7 +20,7 @@ Adds the given header `field` to the _Vary_ response header of `res`. This can b
 This will append the header if not already listed, otherwise leaves it listed in the current location.
 
 %EXAMPLE: example, ../src => @goa/vary%
-%FORK example%
+%FORK-js example%
 
 %~%
 

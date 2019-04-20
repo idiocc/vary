@@ -60,18 +60,11 @@ server.listen(async () => {
   console.log(headers)
   server.close()
 })
-
-// (async () => {
-//   const res = await vary({
-//     text: 'example',
-//   })
-//   console.log(res)
-// })()
 ```
-```
+```js
 { vary: 'User-Agent',
   'content-type': 'text/html',
-  date: 'Sat, 20 Apr 2019 11:54:28 GMT',
+  date: 'Sat, 20 Apr 2019 11:57:51 GMT',
   connection: 'close',
   'content-length': '36' }
 ```

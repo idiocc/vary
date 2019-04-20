@@ -21,10 +21,3 @@ server.listen(async () => {
   console.log(headers)
   server.close()
 })
-
-// (async () => {
-//   const res = await vary({
-//     text: 'example',
-//   })
-//   console.log(res)
-// })()
